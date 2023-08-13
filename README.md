@@ -11,13 +11,6 @@
 
 <img width="856" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/8135f03e-be83-4ca7-98d0-7fe2e010535a">
 
-###### Inside your project file there will be manage.py file where your main server runs on this. and also there are other files: 
-###### 1. urls.py 2. settings.py -- I will explain this later on.
-<img width="857" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/7ddcfae3-6e7d-480a-a044-fac776d8fc59">
-
-
-
-
 ###### 4. Here, I'm giving my virtual environment name as a test
 ###### 5. If you have already created the virtual environment before you can simply type cmd: C:\Users\lenovo>workon test
 ###### 6. So, from onwards it uses a test virtual environment to run all your commands. Now, install Django in your virtualenv test cmd: pip install django
@@ -25,22 +18,17 @@
 ###### 8. cmd: django-admin startproject sidtronic -- Here I'm giving my project name as sidtronic, go to your dir and check for your project file created or not.
 <img width="855" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/3e92f2ee-1935-457d-829b-d9c3c8c1d744">
 
+###### Inside your project file there will be manage.py file where your main server runs on this. and also there are other files: 
+###### 1. urls.py 2. settings.py -- I will explain this later on.
+<img width="857" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/7ddcfae3-6e7d-480a-a044-fac776d8fc59">
 
-8.   (test) C:\Users\lenovo>cd projects
+###### To run my project in cmd prompt type: 
+###### 9. (test) C:\Users\lenovo>cd projects
+###### 10. (test) C:\Users\lenovo\projects>cd sidtronic
+###### Now check with dir the files inside your project:
+###### 11. (test) C:\Users\lenovo\projects\sidtronic>dir
+<img width="381" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/6da4b583-76b5-4498-ab8a-4ea718bf34af">
 
-(test) C:\Users\lenovo\projects>cd sidtronic
 
-(test) C:\Users\lenovo\projects\sidtronic>dir
- Volume in drive C is Windows
- Volume Serial Number is E473-B7A3
 
- Directory of C:\Users\lenovo\projects\sidtronic
 
-08/13/2023  01:54 AM    <DIR>          .
-08/12/2023  10:55 PM    <DIR>          ..
-08/12/2023  11:29 PM           131,072 db.sqlite3
-08/13/2023  02:08 AM    <DIR>          demoapp
-08/12/2023  10:55 PM               687 manage.py
-08/13/2023  01:52 AM    <DIR>          sidtronic
-               2 File(s)        131,759 bytes
-               4 Dir(s)  61,753,499,648 bytes free
