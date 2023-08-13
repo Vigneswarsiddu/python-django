@@ -59,6 +59,7 @@
 ###### 3. If you want you can change the time also - to Indian time by 'Asia/Kolkata'
 <img width="656" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/a89f87f3-fdff-48c0-b15b-dd5d90b97203">
 
+### Now Lets implement the simple addition web page. 
 
 
 
