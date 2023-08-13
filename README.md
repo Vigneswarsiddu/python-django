@@ -29,6 +29,15 @@
 ###### 11. (test) C:\Users\lenovo\projects\sidtronic>dir
 <img width="381" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/6da4b583-76b5-4498-ab8a-4ea718bf34af">
 
+###### 12. Now open Visual Studio code, If not install please refer: https://code.visualstudio.com/download -- for both windows & linux
+###### 13. Now, click on open folder and import your project directory created on your CDrive.
+<img width="188" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/a4f5f6b2-b239-4292-93b0-abc261b44f4a">
+
+###### 14. Now I'm creating the app name called demoapp -- Note: It's an app, not the project, app we will use for to combine all the modules as the framework under the project. 
+###### 15. To create demoapp run the command in a command prompt -- python manage.py startapp demoapp -- Note: It should run on test environment otherwise it occurs error. after creating you can check in your visual studio code of folder with name -demoapp
+<img width="189" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/9fd5a31b-4538-44ce-a6be-7d1ae4f35d2d">
+
+
 
 
 
