@@ -7,16 +7,25 @@
 ###### Python 3.10.5 if not, cmd: pip install python
 ###### 2. Next, I need to create my virtual environment to install Django, because I don't want my entire machine to install on it.
 ###### 3. cmd: mkvirtualenv test after you created your environment you can go to your directory and check whether it is created or not under your Cdrive:
-
 <img width="859" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/a6e596b4-d3c0-41c9-b939-3bf4e119de81">
 
 <img width="856" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/8135f03e-be83-4ca7-98d0-7fe2e010535a">
+
+###### Inside your project file there will be manage.py file where your main server runs on this. and also there are other files: 
+###### 1. urls.py 2. settings.py -- I will explain this later on.
+<img width="857" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/7ddcfae3-6e7d-480a-a044-fac776d8fc59">
+
+
 
 
 ###### 4. Here, I'm giving my virtual environment name as a test
 ###### 5. If you have already created the virtual environment before you can simply type cmd: C:\Users\lenovo>workon test
 ###### 6. So, from onwards it uses a test virtual environment to run all your commands. Now, install Django in your virtualenv test cmd: pip install django
-  
+###### 7. now I need to create my webpage so that I need to create a projects file cmd: mkdir projects
+###### 8. cmd: django-admin startproject sidtronic -- Here I'm giving my project name as sidtronic, go to your dir and check for your project file created or not.
+<img width="855" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/3e92f2ee-1935-457d-829b-d9c3c8c1d744">
+
+
 8.   (test) C:\Users\lenovo>cd projects
 
 (test) C:\Users\lenovo\projects>cd sidtronic
