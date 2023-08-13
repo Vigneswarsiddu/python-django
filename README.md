@@ -59,7 +59,52 @@
 ###### 3. If you want you can change the time also - to Indian time by 'Asia/Kolkata'
 <img width="656" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/a89f87f3-fdff-48c0-b15b-dd5d90b97203">
 
-### Now Lets implement the simple addition web page. 
+### Now, Let's implement the simple addition web page. 
+#### 1. Firstly, I need to create home.html for my front end - view operations that view by the user.
+#### 2. base.html where we add background color as bgcolor. -- Here to work jinja, add extension.
+
+###### NOTE: GET is used to fetch the data, POST is used to submit the data.
+###### I'm attaching the image format of the inputs you can Understand Easily.
+
+# Inputs:
+### 1. templates -> home.html
+<img width="700" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/8b1adc1b-00d4-4e41-a2ac-2552a16c7a94">
+
+###### Here under home.html we extend the base.html with jinja {% extends 'base.html' %} -- as in base.html we will have our docHTML frontend view operation.
+
+### 2. base.html
+<img width="690" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/1aefb52b-6947-4a5c-abc9-7a7a117fbc00">
+
+### 3. views.py
+<img width="691" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/48d9f009-7ad6-4ea8-a376-ca481d9ca89e">
+
+### 4. result.html
+<img width="696" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/9fee83d3-d700-4def-8f82-098628d31934">
+
+### 5. urls.py
+<img width="695" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/0b4f851f-a86a-4992-a92d-abfe51315722">
+
+# OUTPUT:
+###### To run the server of your web application go to command prompt and type cmd: 
+###### python manage.py runserver
+<img width="486" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/29572bfa-b7a7-4966-84e0-d54dc8e45e32">
+
+<img width="960" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/cc6c87b1-e00b-446a-a4f3-85effba83f7b">
+
+<img width="960" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/3d8b6eea-183b-4b3e-ad37-2259cb58a6ad">
+
+<img width="960" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/306b0ae1-3339-48ee-8ec2-012c886f4b48">
+
+## For Any Queries you can Contact Email Id: vigneswarsiddu07@gmail.com
+
+
+
+
+
+
+
+
+
 
 
 
