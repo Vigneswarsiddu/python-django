@@ -37,6 +37,35 @@
 ###### 15. To create demoapp run the command in a command prompt -- python manage.py startapp demoapp -- Note: It should run on test environment otherwise it occurs error. after creating you can check in your visual studio code of folder with name -demoapp
 <img width="189" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/9fd5a31b-4538-44ce-a6be-7d1ae4f35d2d">
 
+#### 1. views.py 
+###### -- here views.py file will be there from demoapp, but not from your project file -- If you want you can create by create file -- views.py
+###### Under this views.py we create or Implement the logic.
+
+#### 2. urls.py
+###### -- It's very important beacuse the web server with runs from this as it works like the admin, whatever logic you implemented on views.py the urls path should be added to this. # Note you should create additional paths on the main project file, not in the demoapp -- if you create url in demoapp the server will show you as default.
+
+#### 3. Settings.py
+###### This we will have DTL (Dashboard template language) -- where you can see different installed apps, and settings configurations for the web application.
+<img width="960" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/566fbca4-0109-4c9d-87f8-1c95bdad68f0">
+
+###### Here in settings I need to change few things, 
+###### 1. I need to add demo app into my installed apps in settings.py
+<img width="678" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/067fb8ea-4c0e-4d5c-a858-b93bcde8dbe8">
+
+###### 2. I need to add my template folder where I do my HTML code workings -- for that I need to create folder with name templates in vs code. after that type command in settings.py -- under TEMPLATES [ 
+###### 'DIRS': [os.path.join(BASE_DIR,'templates')] ]
+<img width="698" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/e0cbcf8f-c9d1-4520-b503-bf5c646f7836">
+
+###### 3. If you want you can change the time also - to Indian time by 'Asia/Kolkata'
+<img width="656" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/a89f87f3-fdff-48c0-b15b-dd5d90b97203">
+
+
+
+
+
+
+
+
 
 
 
