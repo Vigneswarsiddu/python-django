@@ -5,12 +5,14 @@
 1. check whether your machine is installed with the Python version
 C:\Windows\System32>python --version
 Python 3.10.5 if not, cmd: pip install python
-2. next, I need to create my virtual environment to install Django, because I don't want my entire machine to install on it.
+2. Next, I need to create my virtual environment to install Django, because I don't want my entire machine to install on it.
 #### 3. cmd: mkvirtualenv test
 4. Here, I'm giving my virtual environment name as a test
-5. ##### If you have already created the virtual environment before you can simply type cmd: C:\Users\lenovo>workon test
+5. #### If you have already created the virtual environment before you can simply type cmd: C:\Users\lenovo>workon test
 6. So, from onwards it uses a test virtual environment to run all your commands. Now, install Django in your virtualenv test cmd: pip install django
-7.   (test) C:\Users\lenovo>cd projects
+7. <img width="389" alt="image" src="https://github.com/Vigneswarsiddu/python-django/assets/93468524/3ec25de3-0070-401f-8b31-c4a83481345a">
+
+8.   (test) C:\Users\lenovo>cd projects
 
 (test) C:\Users\lenovo\projects>cd sidtronic
 
